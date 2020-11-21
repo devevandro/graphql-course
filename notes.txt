@@ -1,0 +1,23 @@
+- criar projeto:
+-> npm init;
+
+- babel:
+-> npm install babel-cli@6.26.0 babel-preset-env@1.7.0 babel-plugin-transform-object-rest-spread@6.26.0;
+
+- criar:
+-> .babelrc;
+
+- novo diretório:
+-> src;
+
+- criar:
+-> index.js;
+
+- modificar package.json:
+-> adiconar no srcipts: "start": "babel-node src/index.js";
+
+- instalar:
+-> npm install graphql-yoga@1.18.3;
+
+- criar servidor:
+->
