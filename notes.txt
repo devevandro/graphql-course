@@ -14,10 +14,13 @@
 -> index.js;
 
 - modificar package.json:
--> adiconar no srcipts: "start": "babel-node src/index.js";
+-> adiconar no scripts: "start": "nodemon src/index.js --exec babel-node";
 
 - instalar:
 -> npm install graphql-yoga@1.18.3;
 
 - criar servidor:
 ->
+
+- instalar nodemon:
+-> npm install nodemon@2.0.4 --save-dev;
