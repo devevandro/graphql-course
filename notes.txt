@@ -24,3 +24,6 @@
 
 - instalar nodemon:
 -> npm install nodemon@2.0.4 --save-dev;
+
+- json server:
+-> json-server --watch db.json --port 3004

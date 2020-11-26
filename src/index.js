@@ -1,40 +1,15 @@
-import {GraphQLServer} from 'graphql-yoga';
+import { GraphQLServer } from 'graphql-yoga';
+import {Query, Mutation, Post, User, Pictures, Animal} from './graphql/resolvers/index.js';
 
-//Scalar types
-
-const server = new GraphQLServer ({
-    typeDefs: `
-        type Query {
-            id: ID
-            name: String
-            age: Int
-            married: Boolean
-            average: Float
-        }
-    `,
-
+const server = new GraphQLServer({
+    typeDefs: './src/graphql/schema.graphql',
     resolvers: {
-        Query: {
-            id() {
-                return 1
-            },
-
-            name() {
-                return "John"
-            },
-
-            age() {
-                return 55
-            },
-
-            married() {
-                return true
-            },
-
-            average() {
-                return 3.5
-            }
-        }
+        Query,
+        Mutation,
+        Post,
+        User,
+        Pictures,
+        Animal
     }
 });
 
