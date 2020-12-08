@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 mongoose.set('useCreateIndex', true);
 
-mongoose.connect(`mongodb+srv://graphql-test:Yalhaw26@cluster0.mmehh.mongodb.net/graphql?retryWrites=true&w=majority`, {
+mongoose.connect(``, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
