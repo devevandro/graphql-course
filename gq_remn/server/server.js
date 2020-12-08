@@ -63,7 +63,7 @@ const server = new ApolloServer({
 
 const PORT = process.env.PORT || 6500;
 
-mongoose.connect(`mongodb+srv://graphql-test:Yalhaw26@cluster0.mmehh.mongodb.net/graphql?retryWrites=true&w=majority`, {
+mongoose.connect(``, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
