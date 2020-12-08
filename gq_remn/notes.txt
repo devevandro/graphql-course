@@ -1,0 +1,27 @@
+-> npm init;
+
+-> npm install --save express concurrently;
+
+-> npx create-react-app . (crair projeto em uma pasta já criada);
+
+-> npm install --dev nodemon;
+
+-> npm run dev;
+
+-> npm install --save express-graphql@0.11.0;
+
+-> npm install --save graphql@15.3.0;
+
+-> npm install --save body-parser;
+
+-> npm i graphql-playground-middleware-express;
+
+-> npm install mongoose --save;
+
+-> npm install --save axios;
+
+-> npm install cors;
+
+-> npm install apollo-server-express@2.17.0;
+
+-> npm install apollo-server@2.17.0;
